@@ -15,10 +15,11 @@ void printMenu() {
 }
 
 void addTask(vector<Task>& tasks) {
+    //using vector of tasks objject(for tasks.txt)
     Task newTask;
     cout << "Enter task description: ";
+
     
-    // ignore enter key from previous input
     cin.ignore(); 
     
     // get the full line text
