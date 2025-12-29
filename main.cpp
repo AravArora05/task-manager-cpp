@@ -23,6 +23,7 @@ int main() {
             continue;
         }
 
+        //using switch statment for choice
         switch (choice) {
             case 1:
                 addTask(tasks);
@@ -34,7 +35,7 @@ int main() {
                 completeTask(tasks);
                 break;
             case 4:
-                cout << "Exiting..." << endl;
+                cout << "Ending tasks" << endl;
                 saveTasks(tasks, filename);
                 break;
             default:
